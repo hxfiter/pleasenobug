@@ -1,28 +1,97 @@
 <!doctype html>
+<!--没有未来的未来不是我想要的未来-->
 <html>
 <head>
 <meta charset="utf-8">
 <title>19级计网五班——黄绪的主页</title>
 <style type="text/css">
 body {
-	background-color: #8CDC69;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	background-color: #D5DAB4;
+}
+.main {
+	width: 1000px;
+	background-color: #77B5B4;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.header {
+	width: 1000px;
+	background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.main .navbar {
+	background-color: #C9FF6C;
+	width: 200px;
+	height: 500px;
+	float: left;
+}
+.main .section {
+	width: 780px;
+	height: 500px;
+	margin-left: 20px;
+	background-color: #332EC8;
+	float: left;
+}
+.main .section iframe {
+	width: 100%;
+	height: 100%;
+}
+.footer {
+	width: 1000px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #75BCFF;
+	border: 0;
+	text-align: center;
+}
+.main .navbar a {
+	display: block;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 20px;
+	line-height: 40px;
+	color: #4A3BEF;
+	border-radius: 20px;
+	background-color: #8EB54C;
+}
+.main .navbar a:hover {
+	background-color: #7C9D43;
 }
 </style>
+<link href="style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<p>大家好，我是<span style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, sans-serif"><span style="">Flandre </span></span>，感谢浏览我的网站。
-</p>
-<audio controls="controls" >
-  <source src="Dream_It_Possible.mp3" type="audio/mp3">
-</audio>
-<ul>
-  <li><a href="index.html">主页</a></li>
-  <li><a href="photos.html">相册</a></li>
-  <li><a href="work.html">作品</a></li>
-  <li><a href="article.html">文章</a></li>
-  <li><a href="bbs.html">联系</a></li>
-  <li><a href="about.html">关于我</a></li>
-</ul>
+<header class="header">
+  <h1><img src="tubiao.jpg" width="100" height="100" alt=""/>19级计网5班Flandre的个人网页</h1>
+</header>
+<main class="main">
+  <nav class="navbar">
+	  <a href="about.html" target="111">关于</a>
+	  <a href="photos.html" target="111">相册</a>
+	  <a href="work.html" target="111">作品</a>
+	  <a href="article.html" target="111">文章</a>
+	  <a href="bbs.html" target="111">联系</a>
+	</nav>
+  <section class="section">
+    <iframe src="about.html" name="111"></iframe>
+  </section>
+</main>
+<footer class="footer">
+  <p>Copyright © 2020 Adobe Systems Incorporated. by Flandre.</p>
+</footer>
 </body>
 </html>
